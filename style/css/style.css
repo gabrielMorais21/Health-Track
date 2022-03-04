@@ -1,0 +1,105 @@
+.bg-primary {
+  background-color: #00c652 !important;
+}
+
+.bg-light {
+  background-color: #5efa81 !important;
+
+}
+
+.bg-dark {
+  background-color: #009423 !important;
+
+}
+
+.text-primary {
+  color: white !important;
+}
+
+a.text-primary:hover, a.text-primary:focus {
+  color: #484848 !important;
+}
+
+
+.btn-primary {
+  color: #fff;
+  background-color: #00c652 !important;
+  border-color: #5efa81 !important;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #00c652 !important;
+  border-color: #484848 !important;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+  box-shadow: 0 0 0 0.2rem #00c652 !important;
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+  color: #fff;
+  background-color: #5efa81 !important;
+  border-color: #484848 !important;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show>.btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #00c652 !important;
+  border-color: #484848 !important;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+.show>.btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem #5efa81 !important;
+}
+
+
+.badge-secondary {
+  background-color: #00c652 !important;
+}
+
+#customCardWide {
+  width: 90%;
+  height: 350px;
+  border: 1px solid #00c652;
+  border-radius: 10px;
+  padding: 25px;
+
+  background: url(../../assets/excercicio1.jpg);
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#customCard1 {
+  width: 90%;
+  height: 350px;
+  border: 1px solid #00c652;
+  border-radius: 10px;
+  padding: 25px;
+
+  background: url(../../assets/saude4.jpg);
+  /* background-repeat: no-repeat; */
+  /* margin-left: auto;
+    margin-right: auto; */
+  background-size: cover;
+
+}
+
+#customCard2 {
+  width: 90%;
+  height: 350px;
+  border: 1px solid #00c652;
+  border-radius: 10px;
+  padding: 25px;
+
+  background: url(../../assets/exercicios2.jpg);
+  /* background-repeat: no-repeat; */
+  /* margin-left: auto;
+    margin-right: auto; */
+  background-size: cover;
+
+}
