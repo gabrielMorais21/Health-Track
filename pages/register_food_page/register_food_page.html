@@ -8,6 +8,7 @@
         <link href="../../bootstrap-4.1.3-dist/css/bootstrap.css"
             rel="stylesheet">
         <link href="../../style/css/style.css" rel="stylesheet">
+        <link href="register_food.css" rel="stylesheet">
         <script src="https://code.jquery.com/jquery-3.3.1.js"
             integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="crossorigin="anonymous"></script>
         <script
@@ -25,7 +26,8 @@
 
         </div>
         <nav class="navbar navbar-expand-lg navbar-light bg-primary">
-            <a class="navbar-brand text-primary" href="../../index.html">Health Track</a>
+            <a class="navbar-brand text-primary" href="../../index.html">Health
+                Track</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse"
                 data-target="#conteudoNavbarSuportado"
                 aria-controls="conteudoNavbarSuportado" aria-expanded="false"
@@ -36,25 +38,27 @@
                 id="conteudoNavbarSuportado">
                 <ul class="nav justify-content-center">
                     <li class="nav-item active">
-                        <a class="nav-link text-primary" href="imc.html">IMC </a>
+                        <a class="nav-link text-primary" href="imc.html">IMC
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-primary" href="../tmb_page/tmb.html">TMB</a>
+                        <a class="nav-link text-primary"
+                            href="../tmb_page/tmb.html">TMB</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-primary" href="#">FCM</a>
+                        <a class="nav-link text-primary" href="../fcm_page/fmc.html">FCM</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-primary" href="#">Alimentos</a>
+                        <a class="nav-link text-primary" href="../foods_page/foods.html">Alimentos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-primary" href="#">Exercicios</a>
+                        <a class="nav-link text-primary" href="../exercises_page/exercises.html">Exercicios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-primary" href="#">Contato</a>
+                        <a class="nav-link text-primary" href="../contact_page/contect_page.html">Contato</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-primary" href="#">Sobre</a>
+                        <a class="nav-link text-primary" href="../about_page/about_page.html">Sobre</a>
                     </li>
                 </ul>
             </div>
@@ -78,73 +82,41 @@
     </header>
 
     <body>
-        <div class="container justify-content-center" style="margin-top: 25px;">
-            <div class="jumbotron">
-              <h1 class="display-4">Resultado:</h1>
-              <p class="lead">De acordo com seus dados cadastrados para ser considerada normal sua frequência cardíaca deve variar entre 62 e 73 batimentos por minuto.</p>
-              <hr class="my-4">
-              <p class="lead">Veja entre que valores pode variar sua frequência cardíaca e o que significa:.</p>
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th>Condição</th>
-                    <th>Minímo</th>
-                    <th>Máximo</th>
-                    <th style="width: 36px;"></th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Baixa</td>
-                    <td> ...</td>
-                    <td> 61</td>
-                    <td>
-                        <a href="user.html"><i class="icon-pencil"></i></a>
-                        <a href="#myModal" role="button" data-toggle="modal"><i class="icon-remove"></i></a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Boa</td>
-                    <td>62</td>
-                    <td>65</td>
-                    <td>
-                        <a href="user.html"><i class="icon-pencil"></i></a>
-                        <a href="#myModal" role="button" data-toggle="modal"><i class="icon-remove"></i></a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Normal</td>
-                    <td>66</td>
-                    <td>73</td>
-                    <td>
-                        <a href="user.html"><i class="icon-pencil"></i></a>
-                        <a href="#myModal" role="button" data-toggle="modal"><i class="icon-remove"></i></a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Alta</td>
-                    <td>74</td>
-                    <td> 81 </td>
-                    <td>
-                        <a href="user.html"><i class="icon-pencil"></i></a>
-                        <a href="#myModal" role="button" data-toggle="modal"><i class="icon-remove"></i></a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Muito alta</td>
-                    <td>82</td>
-                    <td> ...</td>
-                    <td>
-                        <a href="user.html"><i class="icon-pencil"></i></a>
-                        <a href="#myModal" role="button" data-toggle="modal"><i class="icon-remove"></i></a>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-      </div> 
 
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <br>
+                    <h2 class="text-center">Cadastrar alimento <span
+                            class="badge
+                            badge-secondary">Novo</span></h2>
+
+                    <div class="account-wall container justify-content-center"
+                        style="width: 25rem;">
+                        <form class="form-signin">
+                            <label
+                                class="form-label"
+                                for="form3Example1m">Nome</label>
+                            <input type="text" class="form-control"
+                                placeholder="Ex: arroz" required autofocus>
+                            <br>
+                            Calorias
+                            <input type="text" class="form-control"
+                                placeholder="Ex: 100kcal" required>
+                            <br>
+                            Gramas
+                            <input type="text" class="form-control"
+                                placeholder="Ex: 100g" required>
+                            <br>
+                            <a href="../list_food_page/list_food.html" class="btn btn-lg btn-primary btn-block"
+                                type="submit">
+                                Cadastrar</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
     </body>
     <!-- Footer -->
     <footer class="text-center text-lg-start bg-dark text-muted text-primary">
@@ -246,7 +218,8 @@
                     <!-- Grid column -->
 
                     <!-- Grid column -->
-                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0
+                        mb-4">
                         <!-- Links -->
                         <h6 class="text-uppercase fw-bold mb-4">
                             Contact

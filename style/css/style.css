@@ -20,6 +20,15 @@ a.text-primary:hover, a.text-primary:focus {
   color: #484848 !important;
 }
 
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #00c652;
+  
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem #5efa81;
+}
+
 
 .btn-primary {
   color: #fff;
