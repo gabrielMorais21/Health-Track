@@ -24,7 +24,7 @@ a.text-primary:hover, a.text-primary:focus {
   color: #495057;
   background-color: #fff;
   border-color: #00c652;
-  
+
   outline: 0;
   box-shadow: 0 0 0 0.2rem #5efa81;
 }
@@ -69,12 +69,21 @@ a.text-primary:hover, a.text-primary:focus {
   background-color: #00c652 !important;
 }
 
+main {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.banner-text {
+  margin-top: 25px;
+}
+
 #customCardWide {
   width: 90%;
   height: 350px;
   border: 1px solid #00c652;
   border-radius: 10px;
-  padding: 25px;
+  /* padding: 25px; */
 
   background: url(../../assets/excercicio1.jpg);
   /* background-repeat: no-repeat; */
@@ -90,11 +99,9 @@ a.text-primary:hover, a.text-primary:focus {
   border-radius: 10px;
   padding: 25px;
 
-  background: url(../../assets/saude4.jpg);
-  /* background-repeat: no-repeat; */
-  /* margin-left: auto;
-    margin-right: auto; */
+  background: url(../../assets/saude1.jpg);
   background-size: cover;
+
 
 }
 
@@ -106,9 +113,139 @@ a.text-primary:hover, a.text-primary:focus {
   padding: 25px;
 
   background: url(../../assets/exercicios2.jpg);
-  /* background-repeat: no-repeat; */
-  /* margin-left: auto;
-    margin-right: auto; */
   background-size: cover;
 
+}
+
+.nav-login {
+  display: none;
+}
+
+.carousel-inner {
+  height: 400px;
+}
+
+@media (max-width: 320px) {
+  .login-container {
+    display: none;
+  }
+
+  .banner-text {
+    margin-top: 5px;
+  }
+
+  .nav-login {
+    display: block;
+  }
+
+  .carousel-inner {
+    height: 200px;
+  }
+
+  #customCardWide {
+    width: 90%;
+    height: 350px;
+    border: 1px solid #00c652;
+    border-radius: 10px;
+    /* padding: 25px; */
+    padding: 25px;
+  
+    background: url(../../assets/excercicio1.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #customCard1 {
+    width: 90%;
+    height: 350px;
+    border: 1px solid #00c652;
+    border-radius: 10px;
+    padding: 25px;
+  
+    background: url(../../assets/saude4.jpg);
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+  
+  #customCard2 {
+    width: 90%;
+    height: 350px;
+    border: 1px solid #00c652;
+    border-radius: 10px;
+    padding: 25px;
+  
+    background: url(../../assets/exercicios2.jpg);
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+}
+
+@media (max-width: 480px) {
+
+  #customCardWide {
+    width: 90%;
+    height: 350px;
+    border: 1px solid #00c652;
+    border-radius: 10px;
+    /* padding: 25px; */
+    padding: 25px;
+  
+    background: url(../../assets/excercicio1.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #customCard1 {
+    width: 90%;
+    height: 350px;
+    border: 1px solid #00c652;
+    border-radius: 10px;
+    padding: 25px;
+  
+    background: url(../../assets/saude4.jpg);
+    /* background-repeat: no-repeat; */
+    /* margin-left: auto;
+      margin-right: auto; */
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+  
+  #customCard2 {
+    width: 90%;
+    height: 350px;
+    border: 1px solid #00c652;
+    border-radius: 10px;
+    padding: 25px;
+  
+    background: url(../../assets/exercicios2.jpg);
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+  .carousel-inner {
+    height: 200px;
+  }
+
+  .login-container {
+    display: none;
+  }
+
+  .banner-text {
+    margin-top: 5px;
+  }
+
+  .nav-login {
+    display: block;
+  }
 }

@@ -1,17 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+
 .bg-image {
-    /* The image used */
-    background-image: url(../../assets/exercicios2.jpg);
-
-    /* Add the blur effect */
+    background-image: url(../../assets/aboutimage.jpg);
     filter: blur(4px);
-    /* -webkit-filter: blur(8px); */
-
-    /* Full height */
-    height: 200px;
+    height: 500px;
     width: 100%;
-
-
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.card-img-overlay {
+    position: absolute !important;
+    top: 40% !important;
+    right: 0;
+    bottom: 50%;
+    left: 0;
+    padding: 1.25rem;
+}
+
+.card-title {
+    font-size: 100px;
+}
+
+@media (min-width: 320px ) {
+    .bg-image{
+        height: 450px !important;
+    }
+    .card-img-overlay {
+        position: absolute !important;
+        top: 20% !important;
+        right: 0;
+        bottom: 50%;
+        left: 0;
+        padding: 1.25rem;
+    }
+
+    .img-height{
+        height:224px !important;
+    }
+
+
+    .col-img{
+        padding: 10px;
+    }
+}
+
+@media (min-width: 481px ) {
+    .bg-image{
+        height: 550px !important;
+    }
+    .card-img-overlay {
+        position: absolute !important;
+        top: 20% !important;
+        right: 0;
+        bottom: 50%;
+        left: 0;
+        padding: 1.25rem;
+    }
+
+    .col-img{
+        padding: 10px;
+    }
+
+
+    .img-height{
+        height:118px !important;
+    }
+
+
+    .col-img{
+        padding: 10px;
+    }
+}
+
+@media (min-width: 769px ) {
+    .bg-image{
+        height: 560px !important;
+    }
+    .card-img-overlay {
+        position: absolute !important;
+        top: 20% !important;
+        right: 0;
+        bottom: 50%;
+        left: 0;
+        padding: 1.25rem;
+    }
+
+    .img-height{
+        height:150px !important;
+    }
+
+    .col-img{
+        padding: 10px;
+    }
+}
+
+@media (min-width: 1025px ) {
+    .bg-image{
+        height: 450px !important;
+    }
+    .card-img-overlay {
+        position: absolute !important;
+        top: 20% !important;
+        right: 0;
+        bottom: 50%;
+        left: 0;
+        padding: 1.25rem;
+    }
+
+    .img-height{
+        height:185px !important;
+    }
+
+    .col-img{
+        padding: 10px;
+    }
+}
+
+@media (min-width: 1201px ) {
+    .bg-image{
+        height: 450px !important;
+    }
+    .card-img-overlay {
+        position: absolute !important;
+        top: 20% !important;
+        right: 0;
+        bottom: 50%;
+        left: 0;
+        padding: 1.25rem;
+    }
+
+    .img-height{
+        height:260px !important;
+    }
+    .col-img{
+        padding: 10px;
+    }
+}
+
+
+
+
+
+
+
+
