@@ -1,0 +1,21 @@
+.img-card{
+    width: 18rem !important;
+    height: 12rem !important;
+}
+
+.card {
+    width: 18rem; height: 18rem;
+}
+@media (max-width: 480px) {
+    .img-card{
+        width: auto;
+        height: auto;
+    }
+}
+
+@media (max-width: 320px) {
+    .img-card{
+        width: auto;
+        height: auto;
+    }
+}

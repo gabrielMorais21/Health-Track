@@ -185,6 +185,9 @@ main {
   
   }
 }
+a{
+  text-decoration-line: none !important;
+}
 
 @media (max-width: 480px) {
 
